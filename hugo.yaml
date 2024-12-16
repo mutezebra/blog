@@ -1,0 +1,57 @@
+baseURL: "https://mutezebra.github.io"
+languageCode: en-us
+title: "mutezebra"
+theme: ["PaperMod"]
+
+services:
+  disqus:
+    shortname: mutezebra-blog
+
+params:
+  comments: true
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  profileMode:
+    enabled: true
+    # title: "<Title>" # optional default will be site title
+    subtitle: "Untouched, unknown."
+    imageUrl: "me.jpg" # optional
+    imageTitle: "img title" # optional
+    imageWidth: 150 # custom size
+    imageHeight: 150 # custom size
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/mutezebra"
+    # - name: "<platform 2>"
+    #   url: "<link2>"
+
+  cover:
+    responsiveImages: false
+
+  ShowToc: true
+  # TocOpen: true
+  # ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
