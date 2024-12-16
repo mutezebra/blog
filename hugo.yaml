@@ -3,10 +3,6 @@ languageCode: en-us
 title: "mutezebra"
 theme: ["PaperMod"]
 
-services:
-  disqus:
-    shortname: mutezebra-blog
-
 params:
   comments: true
   defaultTheme: auto
