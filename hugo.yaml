@@ -1,6 +1,6 @@
 baseURL: "https://mutezebra.github.io"
 languageCode: en-us
-title: "mutezebra"
+title: "mutezebra`s blog"
 theme: ["PaperMod"]
 
 params:
@@ -10,7 +10,7 @@ params:
 
   profileMode:
     enabled: true
-    # title: "<Title>" # optional default will be site title
+    title: "<Title>" # optional default will be site title
     subtitle: "Untouched, unknown."
     imageUrl: "me.jpg" # optional
     imageTitle: "img title" # optional
