@@ -6,6 +6,14 @@
     <description>Recent content in Posts on mutezebra</description>
     <generator>Hugo -- 0.139.5</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在Go语言中如何更详细地处理与包装错误</title>
+      <link>http://localhost:1313/posts/how-to-handler-and-wrap-error/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-handler-and-wrap-error/</guid>
+      <description>在Go语言中如何更详细地处理与包装错误</description>
+    </item>
   </channel>
 </rss>
