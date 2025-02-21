@@ -37,8 +37,8 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
-    - identifier: tags
-      name: tags
+    - identifier: Tags
+      name: Tags
       url: /tags/
       weight: 30
     - identifier: archives
